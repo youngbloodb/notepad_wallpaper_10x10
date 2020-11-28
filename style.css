@@ -1,0 +1,31 @@
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  line-height: 0;
+  box-sizing: border-box;
+}
+body,
+main,
+#main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+#wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.cell {
+  position: relative;
+  float: left;
+  width: 5vw;
+  height: calc(5vw);
+  border: solid 1px #87cefa;
+}
